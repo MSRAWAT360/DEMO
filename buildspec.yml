@@ -18,7 +18,7 @@ phases:
     commands:
       - echo Configuring NGINX
       # Optionally configure nginx if needed (for example, editing nginx.conf or other settings)
-      - sudo systemctl restart nginx
+      - systemctl restart nginx
       - echo NGINX service restarted
 
 artifacts:
