@@ -25,3 +25,4 @@ artifacts:
   files:
     - /var/www/html/index.html
     - buildspec.yml
+    - scripts
