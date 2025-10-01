@@ -19,7 +19,7 @@ phases:
       - echo Configuring NGINX
       - echo Running NGINX in the foreground
       # Run NGINX in the foreground to avoid using systemctl
-      - nginx -g 'daemon off;' # This keeps NGINX running in the foreground
+      - nginx -g 'daemon on;' # This keeps NGINX running in the foreground
 
 artifacts:
   files:
