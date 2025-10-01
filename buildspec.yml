@@ -25,5 +25,5 @@ artifacts:
   files:
     - /var/www/html/index.html
     - buildspec.yml
-    - scripts
+    - scripts/*
     - appspec.yml
